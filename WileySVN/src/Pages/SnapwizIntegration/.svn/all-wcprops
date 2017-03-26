@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Wiley/!svn/ver/5792/WileyPlus_Automation/src/Pages/SnapwizIntegration
+END
+AngelHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Wiley/!svn/ver/5773/WileyPlus_Automation/src/Pages/SnapwizIntegration/AngelHomePage.java
+END
+TestBankAssignmentManagementPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Wiley/!svn/ver/5791/WileyPlus_Automation/src/Pages/SnapwizIntegration/TestBankAssignmentManagementPage.java
+END
+WileyPlusOrionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Wiley/!svn/ver/5792/WileyPlus_Automation/src/Pages/SnapwizIntegration/WileyPlusOrionPage.java
+END
+SnapwizHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Wiley/!svn/ver/5788/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwizHomePage.java
+END
+SnapwziCoursesListPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Wiley/!svn/ver/5772/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwziCoursesListPage.java
+END
+SnapwizSubDomainPropertiesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Wiley/!svn/ver/5790/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwizSubDomainPropertiesPage.java
+END
+AssignOrionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Wiley/!svn/ver/5786/WileyPlus_Automation/src/Pages/SnapwizIntegration/AssignOrionPage.java
+END
+StudentViewChooseClassSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Wiley/!svn/ver/5772/WileyPlus_Automation/src/Pages/SnapwizIntegration/StudentViewChooseClassSection.java
+END
+EcollegeHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Wiley/!svn/ver/5787/WileyPlus_Automation/src/Pages/SnapwizIntegration/EcollegeHomePage.java
+END
+BBPublicContentPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Wiley/!svn/ver/5772/WileyPlus_Automation/src/Pages/SnapwizIntegration/BBPublicContentPage.java
+END
+CoursePropertiesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Wiley/!svn/ver/5772/WileyPlus_Automation/src/Pages/SnapwizIntegration/CoursePropertiesPage.java
+END
+ReadStudyPracticePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Wiley/!svn/ver/5715/WileyPlus_Automation/src/Pages/SnapwizIntegration/ReadStudyPracticePage.java
+END
+SnapwizOrionDashboardPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Wiley/!svn/ver/5789/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwizOrionDashboardPage.java
+END
+SnapwizCourseContentUpdatePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Wiley/!svn/ver/5715/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwizCourseContentUpdatePage.java
+END
+SnapwizSubDomainPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Wiley/!svn/ver/5772/WileyPlus_Automation/src/Pages/SnapwizIntegration/SnapwizSubDomainPage.java
+END
+ORIONAssignmentPropertiesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Wiley/!svn/ver/5715/WileyPlus_Automation/src/Pages/SnapwizIntegration/ORIONAssignmentPropertiesPage.java
+END

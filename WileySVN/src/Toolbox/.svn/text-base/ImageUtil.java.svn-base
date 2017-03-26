@@ -1,0 +1,37 @@
+package Toolbox;
+
+import java.io.File;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.sikuli.api.DesktopScreenRegion;
+import org.sikuli.api.ImageTarget;
+import org.sikuli.api.ScreenRegion;
+import org.sikuli.api.Target;
+
+public class ImageUtil {
+public static boolean compareImage(String strLogicalName,String strExpectedImagePath,WebDriver driver){
+	boolean blResult=false;
+	
+	try{
+		driver.manage().window().maximize();
+		ScreenRegion screen = new DesktopScreenRegion();
+		
+		Target target = new ImageTarget(new File(strExpectedImagePath));
+		
+		List<ScreenRegion> regions = (List<ScreenRegion>) screen.findAll(target);
+		
+		if(regions.size()>0){
+			ResultUtil.report("PASS", "<<"+strLogicalName+">> is found",driver);
+			blResult=true;
+		}
+		else{
+			ResultUtil.report("FAIL", "<<"+strLogicalName+">> is not found",driver);
+		}
+	}
+	catch(Exception e){
+		ResultUtil.report("FAIL", "Unable to compare <<"+strLogicalName+">> image Exception occurred:"+e.getMessage(),driver);
+	}
+	return blResult;
+}
+}

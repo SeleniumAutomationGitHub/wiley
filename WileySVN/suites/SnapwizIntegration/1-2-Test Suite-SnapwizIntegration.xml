@@ -1,0 +1,51 @@
+<suite name="1-2-Test Suite-SnapwizIntegration">
+<test name="SnapwizIntegration">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<<<<<<< .mine
+<class name="Scripts.SnapwizIntegration.SnapwizIntegrationSetUp">
+<methods>
+<include name="loginPrerequisite"/>
+<include name="E4_5477"/>
+<include name="E4_5478"/>
+<include name="E4_5479"/>
+<include name="E4_5480"/>
+</methods>
+</class>
+=======
+<!-- <class name="Scripts.SnapwizIntegration.BBOrionNavigationalTab">
+<methods>
+<include name="BBLogin_Prerequisite"/>
+<include name="E4_5512"/>
+</methods>
+</class> -->
+<!-- <class name="Scripts.SnapwizIntegration.SnapwizEulaStandalone">
+<methods>
+<include name="snapwizEula_Prerequisite"/>
+<include name="E4_5536"/>
+</methods>
+</class> -->
+<!-- <class name="Scripts.SnapwizIntegration.ORIONAssignmentNewLTI">
+<methods>
+<exclude name="assignOrionAssignments_Prerequisite"/>
+<include name="bbCourseContent_Prerequisite"/>
+<include name="E4_5500"/>
+</methods>
+</class>  -->
+<!--  <class name="Scripts.SnapwizIntegration.ORIONModifyDeleteAssignment">
+<methods>
+<include name="modifyAssignment_Prerequisite"/>
+<exclude name="E4_5535"/>
+<include name="E4_5534"/>
+</methods>
+</class> -->
+<!-- <class name="Scripts.SnapwizIntegration.ORIONNavigationalTab">
+<methods>
+<include name="navigationOrion_Prerequisite"/>
+<include name="E4_5481"/>
+</methods>
+</class>  -->
+>>>>>>> .r5835
+</classes>
+</test>
+</suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <project name="testng_selenium" basedir="." default="build-all">
+ 	
+ 	<property environment="env"/>
+ 	<property name="label" value="${env.test-build}-${env.1}"></property>
+   <property name="src.dir" value="src"></property>
+   <property name="reports.dir" value="testng_reports"></property>
+   <property name="build.dir" value="bin"></property>
+   <property name="lib.dir" value="lib"></property>
+ 
+   <taskdef resource="testngtasks" classpath="${lib.dir}/testng-6.8.jar"></taskdef>
+ 
+   <path id="master-classpath">
+     <fileset dir="${lib.dir}">
+       <include name="*.jar"></include>
+     </fileset>
+     <pathelement path="${build.dir}"></pathelement>
+   </path>
+ 
+   <target name="clean" description="Removes build directory and test results.">
+     <delete dir="${build.dir}"></delete>
+     <delete dir="${reports.dir}"></delete>
+   </target>
+ 
+   <target name="build" depends="clean" description="Build Java files.">
+     <mkdir dir="${build.dir}"></mkdir>
+     <javac destdir="${build.dir}" debug="true" deprecation="false" includeantruntime="false" optimize="false" failonerror="true">
+       <src path="${src.dir}"></src>
+       <classpath refid="master-classpath"></classpath>
+     </javac>
+	<copy todir="./emailResult">
+   	        <fileset dir="./document/templates">
+   	            <include name="GradeBook-Emailable-Result.html"/>
+   	        </fileset>
+   	</copy>
+   </target>
+ 
+   <target name="build-all" description="Build and test all, implies clean." depends="build,tests">
+   </target>
+ 
+   <target name="tests" description="Run testNG tests.">
+     <mkdir dir="${reports.dir}"></mkdir>
+     <testng classpathref="master-classpath" outputdir="${reports.dir}" haltonfailure="true">
+       <xmlfileset dir="suites/GradeBook" includes="1-3-TestSuite-Gradebook.xml"></xmlfileset>
+     </testng>
+   </target>
+ 
+</project>

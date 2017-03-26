@@ -1,0 +1,14 @@
+<suite name="Assignment-Demo" preserve-order="true">
+<test name="Assignments">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.CourseAdmin.Sample">
+<methods>
+<include name="samplePrerequiste"/>
+<include name="E4_976"/>
+<include name="E4_980"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

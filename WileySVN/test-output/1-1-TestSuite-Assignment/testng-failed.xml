@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [1-1-TestSuite-Assignment]">
+  <test name="Assignments(failed)">
+    <classes>
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+      <class name="Scripts.Assignments.AssignmentPrintedTest">
+        <methods>
+          <include name="createAssignmentWithPrintedTestValidation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.Assignments.AssignmentPrintedTest -->
+      <class name="Scripts.Assignments.AssignmentReadingsResources">
+        <methods>
+          <include name="createAssignmentWithReadingsResources" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.Assignments.AssignmentReadingsResources -->
+      <class name="Scripts.Assignments.AssignmentInstructor">
+        <methods>
+          <include name="createAndValidateNewAssignment" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.Assignments.AssignmentInstructor -->
+      <class name="Scripts.Assignments.MathEnhancement">
+        <methods>
+          <include name="mathEnhanceShowWork" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.Assignments.MathEnhancement -->
+      <class name="Scripts.Assignments.StudentAssignment">
+        <methods>
+          <include name="studentSubmitsAssignment" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.Assignments.StudentAssignment -->
+    </classes>
+  </test> <!-- Assignments(failed) -->
+</suite> <!-- Failed suite [1-1-TestSuite-Assignment] -->

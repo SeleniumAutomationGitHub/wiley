@@ -1,0 +1,20 @@
+QA.EDUGEN_URL=http://edugen-qa.wileyplus.com/
+QA.LMS_URL=http://eapdedbimport.desire2learn.com/
+QA.BB_URL=https://wasintqa0506.wiley.com/
+QA.WPADMIN_URL=https://edugen-qa.wileyplus.com/edugen/secure/admin/login.uni
+QA.ECOLLEGE_URL=http://wiley.ecollege.com
+QA.ANGEL_URL=http://conversion73.angellearning.com/
+QA.MGINS_URL=http://edugen-qa.wileyplus.com/edugen/domain/dmn70017/
+QA.MGSTU_URL=http://edugen-qa.wileyplus.com/edugen/class/cls332868/
+QA.STUDENT_EDUGEN_URL =http://edugen-qa.wileyplus.com/edugen/class/cls332816/
+QA.STUDENT_SPECIFIC_QUESTION_URL=http://edugen-qa.wileyplus.com/edugen/class/cls334545/
+QA.SPECIFIC_QUESTION_URL=http://edugen-qa.wileyplus.com/edugen/domain/dmn64978/
+QA.STUDENT_ORION_EDUGEN_URL=http://edugen-qa.wileyplus.com/edugen/class/cls334375/
+QA.RIGHTNOW_URL=http://wileyplus.custhelp.com/app
+QA.STUDENT_PRECONDITION_URL=http://edugen-qa.wileyplus.com/edugen/class/cls332814/
+QA.STUDENT_SCORE_EDIT_URL=http://edugen-qa.wileyplus.com/edugen/class/cls336230/
+
+ENV=QA
+SCREENSHOT=ALWAYS
+WAIT_NUMBER=1
+OBJECT_WAIT_TIME=20

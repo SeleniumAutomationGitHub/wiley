@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GradeBook">
+<test name="GradeBook">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.GradeBook.GradebookPreCondition">
+<methods>
+<include name="loginToCreateAssignment"/>
+<include name="createFirstAssignmentForSubmit"/>
+<include name="createSecondAssignmentForSubmit"/>
+<include name="attendTestStudentAForSubmit"/>
+<include name="attendTestStudentBForSubmit"/>
+<include name="createFirstAssignmentForEdit"/>
+<include name="createSecondAssignmentForEdit"/>
+<include name="attendTestStudentAForEdit"/>
+<include name="attendTestStudentBForEdit"/>
+<include name="loginNavigateGradeBook"/>
+<include name="editScore"/>
+<include name="submitEditScore"/>
+<include name="createFirstAssignmentForEditAll"/>
+<include name="createSecondAssignmentForEditAll"/>
+<include name="attendTestStudentAForEditAll"/>
+<include name="attendTestStudentBForEditAll"/>
+<include name="createAssignmentSubmitScoreEdit"/>
+<include name="attendQuestionForSubmitEditScore"/>
+
+</methods>
+</class>
+<class name="Scripts.GradeBook.GradebookInstructorUI">
+<methods>
+<include name="GradebookInstructorUIPrerequsite"/>
+<include name="E4_394"/>
+<include name="E4_397"/>
+<include name="E4_396"/>
+<include name="E4_408"/>
+<include name="E4_409"/>
+<include name="E4_437"/>
+<include name="E4_442"/>
+<include name="E4_443"/>
+<include name="E4_447"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.GradebookStudentUI">
+<methods>
+<include name="gradebookStudentUIPrerequsite"/>
+<include name="E4_410"/>
+<include name="E4_411"/>
+<include name="E4_412"/>
+<include name="E4_448"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.InstructorEditAllStudent">
+<methods>
+<include name="instructorEditAllStudentPrerequsite"/>
+<include name="E4_942"/>
+<include name="E4_939"/>
+<include name="E4_873"/>
+<include name="E4_872"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.InstructorEditOneStudent">
+<methods>
+<include name="instructorEditOneStudentPrerequsite"/>
+<include name="E4_932"/>
+<include name="E4_1004"/>
+<include name="E4_1183"/>
+<include name="E4_1327"/>
+<include name="E4_1508"/>
+<include name="E4_1609"/>
+<include name="E4_931"/>
+<include name="E4_941"/>
+<include name="E4_1003"/>
+<include name="E4_1182"/>
+<include name="E4_1326"/>
+<include name="E4_1507"/>
+<include name="E4_1608"/>
+<include name="E4_930"/>
+<include name="E4_1002"/>
+<include name="E4_1181"/>
+<include name="E4_1325"/>
+<include name="E4_1506"/>
+<include name="E4_1607"/>
+<include name="E4_846"/>
+<include name="E4_1185"/>
+<include name="E4_1329"/>
+<include name="E4_1440"/>
+<include name="E4_1441"/>
+<include name="E4_1510"/>
+<include name="E4_1611"/>
+<include name="E4_1319"/>
+<include name="E4_812"/>
+<include name="E4_845"/>
+<include name="E4_1184"/>
+<include name="E4_1328"/>
+<include name="E4_1509"/>
+<include name="E4_1610"/>
+<include name="E4_814"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.InstructorSubmit">
+<methods>
+<include name=""/>
+<include name="E4_914"/>
+<include name="E4_1544"/>
+<include name="E4_915"/>
+<include name="E4_1173"/>
+<include name="E4_1268"/>
+<include name="E4_1317"/>
+<include name="E4_1545"/>
+<include name="E4_801"/>
+<include name="E4_838"/>
+<include name="E4_1174"/>
+<include name="E4_1269"/>
+<include name="E4_1318"/>
+<include name="E4_1546"/>
+<include name="E4_1600"/>
+<include name="E4_1826"/>
+<include name="E4_913"/>
+<include name="E4_971"/>
+<include name="E4_1171"/>
+<include name="E4_1266"/>
+<include name="E4_1543"/>
+<include name="E4_1597"/>
+<include name="E4_803"/>
+<include name="E4_1175"/>
+<include name="E4_1547"/>
+<include name="E4_804"/>
+
+<exclude name="E4_1271"/>
+<exclude name="E4_1320"/>
+<exclude name="E4_1548"/>
+<exclude name="E4_1602"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.InstructorSubmitScoreEdited">
+<methods>
+<include name=""/>
+<include name="E4_951"/>
+<include name="E4_1048"/>
+<include name="E4_1192"/>
+<include name="E4_1336"/>
+<include name="E4_1517"/>
+<include name="E4_1628"/>
+<include name="E4_1598"/>
+<include name="E4_973"/>
+<include name="E4_1599"/>
+<include name="E4_952"/>
+<include name="E4_1049"/>
+<include name="E4_1193"/>
+<include name="E4_1337"/>
+<include name="E4_1518"/>
+<include name="E4_1629"/>
+<include name="E4_890"/>
+<include name="E4_1050"/>
+<include name="E4_1194"/>
+<include name="E4_1338"/>
+<include name="E4_1519"/>
+<include name="E4_1630"/>
+<include name="E4_1315"/>
+<include name="E4_950"/>
+<include name="E4_1047"/>
+<include name="E4_1191"/>
+<include name="E4_1335"/>
+<include name="E4_1516"/>
+<include name="E4_1627"/>
+<include name="E4_839"/>
+<include name="E4_1601"/>
+<include name="E4_891"/>
+<include name="E4_1051"/>
+<include name="E4_1195"/>
+<include name="E4_1339"/>
+<include name="E4_1520"/>
+<include name="E4_1270"/>
+<include name="E4_1631"/>
+<include name="E4_892"/>
+<include name="E4_840"/>
+<include name="E4_1052"/>
+<include name="E4_1196"/>
+<include name="E4_1340"/>
+<include name="E4_1521"/>
+<include name="E4_1632"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.StudentEditAllStudent">
+<methods>
+<include name=""/>
+<include name="E4_869"/>
+<include name="E4_871"/>
+<include name="E4_868"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.StudentEditOneStudent">
+<methods>
+<include name=""/>
+<include name="E4_810"/>
+<include name="E4_843"/>
+<include name="E4_1179"/>
+<include name="E4_1323"/>
+<include name="E4_1504"/>
+<include name="E4_1605"/>
+<include name="E4_809"/>
+<include name="E4_842"/>
+<include name="E4_1178"/>
+<include name="E4_1322"/>
+<include name="E4_1503"/>
+<include name="E4_1604"/>
+<include name="E4_811"/>
+<include name="E4_844"/>
+<include name="E4_1180"/>
+<include name="E4_1324"/>
+<include name="E4_1505"/>
+<include name="E4_1606"/>
+<include name="E4_808"/>
+<include name="E4_841"/>
+<include name="E4_1502"/>
+<include name="E4_1603"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.StudentSubmit">
+<methods>
+<include name=""/>
+<include name="E4_793"/>
+<include name="E4_1169"/>
+<include name="E4_1264"/>
+<include name="E4_1313"/>
+<include name="E4_1541"/>
+<include name="E4_792"/>
+<include name="E4_835"/>
+<include name="E4_1168"/>
+<include name="E4_1263"/>
+<include name="E4_1312"/>
+<include name="E4_1540"/>
+<include name="E4_1594"/>
+<include name="E4_1820"/>
+<include name="E4_794"/>
+<include name="E4_1170"/>
+<include name="E4_1265"/>
+<include name="E4_1314"/>
+<include name="E4_1542"/>
+<include name="E4_1596"/>
+<include name="E4_1822"/>
+<include name="E4_1255"/>
+<include name="E4_1187"/>
+</methods>
+</class>
+
+<class name="Scripts.GradeBook.StudentSubmitScoreEdited">
+<methods>
+<include name=""/>
+<include name="E4_836"/>
+<include name="E4_1595"/>
+<include name="E4_1821"/>
+<include name="E4_837"/>
+<include name="E4_886"/>
+<include name="E4_1043"/>
+<include name="E4_1512"/>
+<include name="E4_1623"/>
+<include name="E4_887"/>
+<include name="E4_1044"/>
+<include name="E4_1188"/>
+<include name="E4_1332"/>
+<include name="E4_1513"/>
+<include name="E4_1624"/>
+<include name="E4_889"/>
+<include name="E4_1046"/>
+<include name="E4_1190"/>
+<include name="E4_1334"/>
+<include name="E4_1515"/>
+<include name="E4_1626"/>
+<include name="E4_888"/>
+<include name="E4_1045"/>
+<include name="E4_1189"/>
+<include name="E4_1333"/>
+<include name="E4_1514"/>
+<include name="E4_1625"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

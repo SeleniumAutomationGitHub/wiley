@@ -1,0 +1,49 @@
+10
+
+dir
+5924
+https://gavssvnrepsvr.gavsin.com/svn/Wiley/WileyPlus_Automation/suites
+https://gavssvnrepsvr.gavsin.com/svn/Wiley
+
+
+
+2013-11-25T13:05:00.984138Z
+5918
+ParoshKumar.PM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fb676c60-8976-0040-8bc9-93d222ce16b0
+
+Assignments
+dir
+
+CourseAdmin
+dir
+
+GradeBook
+dir
+
+LMSIntegration
+dir
+
+MapleGraph
+dir
+
+SnapwizIntegration
+dir
+
+WPBlackBoardIntegration
+dir
+

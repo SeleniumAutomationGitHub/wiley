@@ -1,0 +1,16 @@
+<suite name="1-2-Test Suite-SnapwizIntegration">
+<test name="SnapwizIntegration">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.SnapwizIntegration.SnapwizIntegrationSetUp">
+<methods>
+<include name="loginPrerequisite"/>
+<include name="E4_5477"/>
+<include name="E4_5478"/>
+<include name="E4_5479"/>
+<include name="E4_5480"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

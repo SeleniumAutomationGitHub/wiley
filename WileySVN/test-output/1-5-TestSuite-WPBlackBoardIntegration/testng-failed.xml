@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [1-5-TestSuite-WPBlackBoardIntegration]">
+  <test name="WPBlackBoardIntegration(failed)">
+    <classes>
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+      <class name="Scripts.WPBlackBoardIntegration.BBWPFinishedClassAccessByDifferentRoles">
+        <methods>
+          <include name="E4_330_2" invocation-numbers="0"/>
+          <include name="E4_329" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.WPBlackBoardIntegration.BBWPFinishedClassAccessByDifferentRoles -->
+    </classes>
+  </test> <!-- WPBlackBoardIntegration(failed) -->
+</suite> <!-- Failed suite [1-5-TestSuite-WPBlackBoardIntegration] -->

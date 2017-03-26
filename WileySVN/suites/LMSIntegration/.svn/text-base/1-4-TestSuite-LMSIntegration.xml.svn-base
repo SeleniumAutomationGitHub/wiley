@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="1-4-TestSuite-LMSIntegration.xml">
+<test name="LMSIntegration">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.LMSIntegration.LMSStudent">
+<methods>
+<include name="E4_1417"/>
+<include name="E4_1221"/>
+<include name="E4_1209"/>
+<include name="E4_1222"/>
+</methods>
+</class>
+
+<class name="Scripts.LMSIntegration.LMSInstructor">
+<methods>
+<include name="E4_1223"/>
+<include name="E4_1162"/>
+<include name="E4_1160"/>
+<include name="E4_1161"/>
+<include name="E4_1158"/>
+<include name="E4_1159"/>
+<include name="E4_1146"/>
+<include name="E4_1208"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

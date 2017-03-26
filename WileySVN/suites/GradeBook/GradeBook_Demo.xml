@@ -1,0 +1,13 @@
+<suite name="GradeBook">
+<test name="GradeBook">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.GradeBook.GradebookSubmitPreCondition">
+<methods>
+<include name="gradeBookSubmitPre"/>
+<include name="deleteSubmitPreCondition"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

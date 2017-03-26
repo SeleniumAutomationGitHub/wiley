@@ -1,0 +1,296 @@
+//1.9.4. Test Suite : Image Placeholder / Interactive Version On-demand
+
+
+package Scripts.MapleGraph;
+
+
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import Pages.MapleGraph.MapleGraphPage;
+import Scripts.Misc.Prerequsite;
+import Toolbox.Browser;
+import Toolbox.ResultUtil;
+import Util.LMSMGDataProviderUtil.staticProviderClass;
+
+@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+public class ImagePlaceHolderIVonDemand {
+	//Test Case E4-5102: Image Placeholder - Admin Workspace
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5102(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("ImagePlaceHolderIVonDemand-E4_5102",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".WPADMIN_URL");
+
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		mapleGraphPage.MGAdminlogin(dataMap);
+		//click on login user name
+
+		mapleGraphPage.adminCourses();
+		//click on Go
+		mapleGraphPage.accessCourse();
+
+		//click on content updates
+		mapleGraphPage.contentUpdates();
+
+		//click on test banks
+		mapleGraphPage.clicktestbanks();
+
+		//click on question mgmt
+		mapleGraphPage.clickquestionmgmt();
+		
+		//close the browser
+		mapleGraphPage.closeBrowser();
+	}			
+
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-5080: Image Placeholder - Instructor - General Case
+	public void E4_5080(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("ImagePlaceholderIVonDemand-E4_5080",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGINS_URL");
+		//String strURL="http://edugen-qa.wileyplus.com";
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		
+		//click on login user name
+		mapleGraphPage.GraphingMapleInstructorlogin(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+
+		//click on Go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//enter details on the assignment
+		mapleGraphPage.clickonmaplelink();
+
+		//window close
+		mapleGraphPage.windowclose();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//*************************Test Case E4-5082: Image Placeholder - Instructor - Gradebook*********************************
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5082(Map<String,String> dataMap) throws Exception{
+		System.out.println("E4_5082");
+		ResultUtil.createReport("ImagePlaceholderIVonDemand-E4_5082",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGINS_URL");
+
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		
+		//instructor login
+		mapleGraphPage.GraphingMapleInstructorlogin(dataMap);
+
+		//access gradebook tab
+		mapleGraphPage.accessGradebook();
+		
+		//click on MAPLE link which contains image place holder
+		mapleGraphPage.clickGBMG();
+
+		//click on sub link
+		mapleGraphPage.clickonmaplelink();
+
+		//click on sub link
+		mapleGraphPage.clickonmaplelink();
+
+		//closingh IPH window
+		mapleGraphPage.windowclose();
+
+		//close browser
+		mapleGraphPage.closeBrowser();
+	}
+
+	//***************************************************Test Case E4-5045: Image Placeholder - Student - Assignment Player**************
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5045(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("ImagePlaceholderIVonDemand-E4_5045",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGSTU_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		
+		//instructor login
+		mapleGraphPage.GraphingMapleStudentlogin(dataMap);
+		
+		//access gradebook tab
+		mapleGraphPage.clickAssignmentTab();
+		
+		//click on MAPLE link which contains image place holder
+		mapleGraphPage.clickonmapleduepast();
+
+		//click on sub link
+		mapleGraphPage.clickmapleNext();
+
+		//click on save for later
+		mapleGraphPage.clickSaveForLater();
+
+		//close browser
+		mapleGraphPage.closeBrowser();
+	}
+
+	//***************Test Case E4-5060: Image Placeholder - Student - Gradebook***********************************
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+
+	public void E4_5060(Map<String,String> dataMap) throws Exception{
+		System.out.println("E4_5060");
+		ResultUtil.createReport("ImagePlaceholderIVonDemand-E4_5060",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGSTU_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		
+		//instructor login
+		mapleGraphPage.GraphingMapleStudentlogin(dataMap);
+		
+		//access gradebook tab
+		mapleGraphPage.clickMapleStudentGradebook();
+		
+		//click on MAPLE link which contains image place holder
+		mapleGraphPage.clickonmaplelink();
+		
+		//click on maple link
+		mapleGraphPage.clickonmaplelink();
+
+		//close window
+		mapleGraphPage.windowclose();
+
+		//close browser
+		mapleGraphPage.closeBrowser();
+	}
+
+	//Test Case E4-5067: Image Placeholder - Practice Assignment
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5067(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("ImagePlaceHolderIVonDemand-E4_5067",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGSTU_URL");
+		//String strURL="http://edugen-qa.wileyplus.com";
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		//instructor login
+		
+		mapleGraphPage.GraphingMapleStudentlogin(dataMap);
+		//access gradebook tab
+		
+		mapleGraphPage.clickImagePlaceholderWPRSP();
+		//click on MAPLE link which contains image place holder
+
+		//click on rsp question
+		mapleGraphPage.clickRSPquestion();
+
+		mapleGraphPage.windowclose();
+
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//Test Case E4-5109: Image Placeholder - Access after Due Date
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5109(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("ImagePlaceHolderIVonDemand-E4_5109",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGSTU_URL");
+		//String strURL="http://edugen-qa.wileyplus.com";
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		//instructor login
+		mapleGraphPage.GraphingMapleStudentlogin(dataMap);
+		//access gradebook tab
+
+		mapleGraphPage.clickAssignmentTab();
+		//click on MAPLE link which contains image place holder
+
+		mapleGraphPage.clickonmaplelink();
+
+		mapleGraphPage.closeBrowser();
+	}
+	//Test Case E4-5117: Image Placeholder - Algorithm Values
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_5117(Map<String,String> dataMap) throws Exception{
+		System.out.println("E4_5117");
+		ResultUtil.createReport("ImagePlaceHolderIVonDemand-E4_5117",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".MGSTU_URL");
+		//String strURL="http://edugen-qa.wileyplus.com";
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+		//instructor login
+		mapleGraphPage.GraphingMapleStudentlogin(dataMap);
+		//access gradebook tab
+		mapleGraphPage.clickAssignmentTab();
+		//click on MAPLE link which contains image place holder
+
+		mapleGraphPage.clickonmaplelink();
+
+		mapleGraphPage.clickmapleNext();
+
+		//mapleGraphPage.clickdisabledsaveForLater();
+
+		mapleGraphPage.closeBrowser();
+
+
+	}
+}

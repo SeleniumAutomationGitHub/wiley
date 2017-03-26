@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.wiley.com/namespaces/wpmap" integration="snapwiz.1.0">
+   <product xml:id="ISBNEPROF11278" title="kimmel9781118162286" externalRef="978-1118162286">
+       <chapter xml:id="c02" externalRef="CH_2"
+               title="Chapter 2. A Further Look at Financial Statements">
+         <objective xml:id="so_02_01" externalRefs="SO_2.1"
+                    title="Identify the sections of a classified balance sheet."/>
+         <objective xml:id="so_02_02" externalRefs="SO_2.2"
+                    title="Identify tools for analyzing financial statements and ratios for computing a company's profitability."/>
+         <objective xml:id="so_02_03" externalRefs="SO_2.3"
+                    title="Explain the relationship between a retained earnings statement and a statement of stockholders' equity."/>
+         <objective xml:id="so_02_04" externalRefs="SO_2.4"
+                    title="Identify and compute ratios for analyzing a company's liquidity and solvency using a balance sheet."/>
+         <objective xml:id="so_02_05" externalRefs="SO_2.5"
+                    title="Use the statement of cash flows to evaluate solvency."/>
+         <objective xml:id="so_02_06" externalRefs="SO_2.6"
+                    title="Explain the meaning of generally accepted accounting principles."/>
+         <objective xml:id="so_02_07" externalRefs="SO_2.7"
+                    title="Discuss financial reporting concepts."/>
+         <objective xml:id="so_02_08" externalRefs="SO_2.8"
+                    title="Compare the classified balance sheet format under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c03" externalRef="CH_3"
+               title="Chapter 3. The Accounting Information System">
+         <objective xml:id="so_03_01" externalRefs="SO_3.1"
+                    title="Analyze the effect of business transactions on the basic accounting equation."/>
+         <objective xml:id="so_03_02" externalRefs="SO_3.2"
+                    title="Explain what an account is and how it helps in the recording process."/>
+         <objective xml:id="so_03_03" externalRefs="SO_3.3"
+                    title="Define debits and credits and explain how they are used to record business transactions."/>
+         <objective xml:id="so_03_04" externalRefs="SO_3.4"
+                    title="Identify the basic steps in the recording process."/>
+         <objective xml:id="so_03_05" externalRefs="SO_3.5"
+                    title="Explain what a journal is and how it helps in the recording process."/>
+         <objective xml:id="so_03_06" externalRefs="SO_3.6"
+                    title="Explain what a ledger is and how it helps in the recording process."/>
+         <objective xml:id="so_03_07" externalRefs="SO_3.7"
+                    title="Explain what posting is and how it helps in the recording process."/>
+         <objective xml:id="so_03_08" externalRefs="SO_3.8"
+                    title="Explain the purposes of a trial balance."/>
+         <objective xml:id="so_03_09" externalRefs="SO_3.9"
+                    title="Classify cash activities as operating, investing, or financing."/>
+         <objective xml:id="so_03_10" externalRefs="SO_3.10"
+                    title="Compare the procedures for the recording process under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c04" externalRef="CH_4" title="Chapter 4. Accrual Accounting Concepts">
+         <objective xml:id="so_04_01" externalRefs="SO_4.1"
+                    title="Explain the revenue recognition principle and the expense recognition principle."/>
+         <objective xml:id="so_04_02" externalRefs="SO_4.2"
+                    title="Differentiate between the cash basis and the accrual basis of accounting."/>
+         <objective xml:id="so_04_03" externalRefs="SO_4.3"
+                    title="Explain why adjusting entries are needed, and identify the major types of adjusting entries."/>
+         <objective xml:id="so_04_04" externalRefs="SO_4.4"
+                    title="Prepare adjusting entries for deferrals."/>
+         <objective xml:id="so_04_05" externalRefs="SO_4.5"
+                    title="Prepare adjusting entries for accruals."/>
+         <objective xml:id="so_04_06" externalRefs="SO_4.6"
+                    title="Describe the nature and purpose of the adjusted trial balance."/>
+         <objective xml:id="so_04_07" externalRefs="SO_4.7"
+                    title="Explain the purpose of closing entries."/>
+         <objective xml:id="so_04_08" externalRefs="SO_4.8"
+                    title="Describe the required steps in the accounting cycle."/>
+         <objective xml:id="so_04_09" externalRefs="SO_4.9"
+                    title="Understand the causes of differences between net income and net cash provided by operating activities."/>
+         <objective xml:id="so_04_10" externalRefs="SO_4.10"
+                    title="Describe the purpose and the basic form of a worksheet."/>
+         <objective xml:id="so_04_11" externalRefs="SO_4.11"
+                    title="Compare the procedures for revenue recognition under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c05" externalRef="CH_5"
+               title="Chapter 5. Merchandising Operations and The Multiple-Step Income Statement">
+         <objective xml:id="so_05_01" externalRefs="SO_5.1"
+                    title="Identify the differences between a service company and a merchandising company."/>
+         <objective xml:id="so_05_02" externalRefs="SO_5.2"
+                    title="Explain the recording of purchases under a perpetual inventory system."/>
+         <objective xml:id="so_05_03" externalRefs="SO_5.3"
+                    title="Explain the recording of sales revenues under a perpetual inventory system."/>
+         <objective xml:id="so_05_04" externalRefs="SO_5.4"
+                    title="Distinguish between a single-step and a multiple-step income statement."/>
+         <objective xml:id="so_05_05" externalRefs="SO_5.5"
+                    title="Determine cost of goods sold under a periodic system."/>
+         <objective xml:id="so_05_06" externalRefs="SO_5.6"
+                    title="Explain the factors affecting profitability."/>
+         <objective xml:id="so_05_07" externalRefs="SO_5.7"
+                    title="Identify a quality of earnings indicator."/>
+         <objective xml:id="so_05_08" externalRefs="SO_5.8"
+                    title="Explain the recording of purchases and sales of inventory under a periodic inventory system."/>
+         <objective xml:id="so_05_09" externalRefs="SO_5.9"
+                    title="Compare the accounting procedures for merchandising under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c06" externalRef="CH_6"
+               title="Chapter 6. Reporting and Analyzing Inventory">
+         <objective xml:id="so_06_01" externalRefs="SO_6.1"
+                    title="Determine how to classify inventory and inventory quantities."/>
+         <objective xml:id="so_06_02" externalRefs="SO_6.2"
+                    title="Explain the basis of accounting for inventories and apply the inventory cost flow methods under a periodic inventory system."/>
+         <objective xml:id="so_06_03" externalRefs="SO_6.3"
+                    title="Explain the financial statement and tax effects of each of the inventory cost flow assumptions."/>
+         <objective xml:id="so_06_04" externalRefs="SO_6.4"
+                    title="Explain the lower-of-cost-or-market basis of accounting for inventories."/>
+         <objective xml:id="so_06_05" externalRefs="SO_6.5"
+                    title="Compute and interpret the inventory turnover."/>
+         <objective xml:id="so_06_06" externalRefs="SO_6.6"
+                    title="Describe the LIFO reserve and explain its importance for comparing results of different companies."/>
+         <objective xml:id="so_06_07" externalRefs="SO_6.7"
+                    title="Apply the inventory cost flow methods to perpetual inventory records."/>
+         <objective xml:id="so_06_08" externalRefs="SO_6.8"
+                    title="Indicate the effects of inventory errors on the financial statements."/>
+         <objective xml:id="so_06_09" externalRefs="SO_6.9"
+                    title="Compare the accounting procedures for inventories under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c07" externalRef="CH_7"
+               title="Chapter 7. Fraud, Internal Control, and Cash">
+         <objective xml:id="so_07_01" externalRefs="SO_7.1"
+                    title="Define fraud and internal control."/>
+         <objective xml:id="so_07_02" externalRefs="SO_7.2"
+                    title="Identify the principles of internal control activities."/>
+         <objective xml:id="so_07_03" externalRefs="SO_7.3"
+                    title="Explain the applications of internal control principles to cash receipts."/>
+         <objective xml:id="so_07_04" externalRefs="SO_7.4"
+                    title="Explain the applications of internal control principles to cash disbursements."/>
+         <objective xml:id="so_07_05" externalRefs="SO_7.5" title="Prepare a bank reconciliation."/>
+         <objective xml:id="so_07_06" externalRefs="SO_7.6" title="Explain the reporting of cash."/>
+         <objective xml:id="so_07_07" externalRefs="SO_7.7"
+                    title="Discuss the basic principles of cash management."/>
+         <objective xml:id="so_07_08" externalRefs="SO_7.8"
+                    title="Identify the primary elements of a cash budget."/>
+         <objective xml:id="so_07_09" externalRefs="SO_7.9"
+                    title="Explain the operation of a petty cash fund."/>
+         <objective xml:id="so_07_10" externalRefs="SO_7.10"
+                    title="Compare the accounting procedures for fraud, internal control, and cash under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c08" externalRef="CH_8"
+               title="Chapter 8. Reporting and Analyzing Receivables">
+         <objective xml:id="so_08_01" externalRefs="SO_8.1"
+                    title="Identify the different types of receivables."/>
+         <objective xml:id="so_08_02" externalRefs="SO_8.2"
+                    title="Explain how accounts receivable are recognized in the accounts."/>
+         <objective xml:id="so_08_03" externalRefs="SO_8.3"
+                    title="Describe the methods used to account for bad debts."/>
+         <objective xml:id="so_08_04" externalRefs="SO_8.4"
+                    title="Compute the interest on notes receivable."/>
+         <objective xml:id="so_08_05" externalRefs="SO_8.5"
+                    title="Describe the entries to record the disposition of notes receivable."/>
+         <objective xml:id="so_08_06" externalRefs="SO_8.6"
+                    title="Explain the statement presentation of receivables."/>
+         <objective xml:id="so_08_07" externalRefs="SO_8.7"
+                    title="Describe the principles of sound accounts receivable management."/>
+         <objective xml:id="so_08_08" externalRefs="SO_8.8"
+                    title="Identify ratios to analyze a company's receivables."/>
+         <objective xml:id="so_08_09" externalRefs="SO_8.9"
+                    title="Describe methods to accelerate the receipt of cash from receivables."/>
+         <objective xml:id="so_08_10" externalRefs="SO_8.10"
+                    title="Compare the accounting procedures for receivables under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c09" externalRef="CH_9"
+               title="Chapter 9. Reporting and Analyzing Long-Lived Assets">
+         <objective xml:id="so_09_01" externalRefs="SO_9.1"
+                    title="Describe how the historical cost principle applies to plant assets."/>
+         <objective xml:id="so_09_02" externalRefs="SO_9.2"
+                    title="Explain the concept of depreciation."/>
+         <objective xml:id="so_09_03" externalRefs="SO_9.3"
+                    title="Compute periodic depreciation using the straight-line method, and contrast its expense pattern with those of other methods."/>
+         <objective xml:id="so_09_04" externalRefs="SO_9.4"
+                    title="Describe the procedure for revising periodic depreciation."/>
+         <objective xml:id="so_09_05" externalRefs="SO_9.5"
+                    title="Explain how to account for the disposal of plant assets."/>
+         <objective xml:id="so_09_06" externalRefs="SO_9.6"
+                    title="Describe methods for evaluating the use of plant assets."/>
+         <objective xml:id="so_09_07" externalRefs="SO_9.7"
+                    title="Identify the basic issues related to reporting intangible assets."/>
+         <objective xml:id="so_09_08" externalRefs="SO_9.8"
+                    title="Indicate how long-lived assets are reported in the financial statements."/>
+         <objective xml:id="so_09_09" externalRefs="SO_9.9"
+                    title="Compute periodic depreciation using the straight-line method, and contrast its expense pattern with those of other methods."/>
+         <objective xml:id="so_09_10" externalRefs="SO_9.10"
+                    title="Compare the accounting procedures for long-lived assets under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c10" externalRef="CH_10"
+               title="Chapter 10. Reporting and Analyzing Liabilities">
+         <objective xml:id="so_10_01" externalRefs="SO_10.1"
+                    title="Explain a current liability and identify the major types of current liabilities."/>
+         <objective xml:id="so_10_02" externalRefs="SO_10.2"
+                    title="Describe the accounting for notes payable."/>
+         <objective xml:id="so_10_03" externalRefs="SO_10.3"
+                    title="Explain the accounting for other current liabilities."/>
+         <objective xml:id="so_10_04" externalRefs="SO_10.4" title="Identify the types of bonds."/>
+         <objective xml:id="so_10_05" externalRefs="SO_10.5"
+                    title="Prepare the entries for the issuance of bonds and interest expense."/>
+         <objective xml:id="so_10_06" externalRefs="SO_10.6"
+                    title="Describe the entries when bonds are redeemed."/>
+         <objective xml:id="so_10_07" externalRefs="SO_10.7"
+                    title="Identify the requirements for the financial statement presentation and analysis of liabilities."/>
+         <objective xml:id="so_10_08" externalRefs="SO_10.8"
+                    title="Apply the straight-line method of amortizing bond discount and bond premium."/>
+         <objective xml:id="so_10_09" externalRefs="SO_10.9"
+                    title="Apply the effective-interest method of amortizing bond discount and bond premium."/>
+         <objective xml:id="so_10_10" externalRefs="SO_10.10"
+                    title="Describe the accounting for long-term notes payable."/>
+         <objective xml:id="so_10_11" externalRefs="SO_10.11"
+                    title="Compare the accounting procedures for liabilities under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c11" externalRef="CH_11"
+               title="Chapter 11. Reporting and Analyzing Stockholders'Equity">
+         <objective xml:id="so_11_01" externalRefs="SO_11.1"
+                    title="Identify and discuss the major characteristics of a corporation."/>
+         <objective xml:id="so_11_02" externalRefs="SO_11.2"
+                    title="Record the issuance of common stock."/>
+         <objective xml:id="so_11_03" externalRefs="SO_11.3"
+                    title="Explain the accounting for the purchase of treasury stock."/>
+         <objective xml:id="so_11_04" externalRefs="SO_11.4"
+                    title="Differentiate preferred stock from common stock."/>
+         <objective xml:id="so_11_05" externalRefs="SO_11.5"
+                    title="Prepare the entries for cash dividends and understand the effect of stock dividends and stock splits."/>
+         <objective xml:id="so_11_06" externalRefs="SO_11.6"
+                    title="Identify the items that affect retained earnings."/>
+         <objective xml:id="so_11_07" externalRefs="SO_11.7"
+                    title="Prepare a comprehensive stockholders' equity section."/>
+         <objective xml:id="so_11_08" externalRefs="SO_11.8"
+                    title="Evaluate a corporation's dividend and earnings performance from a stockholder's perspective."/>
+         <objective xml:id="so_11_09" externalRefs="SO_11.9"
+                    title="Prepare entries for stock dividends."/>
+         <objective xml:id="so_11_10" externalRefs="SO_11.10"
+                    title="Compare the accounting for transactions related to stockholders' equity under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c12" externalRef="CH_12" title="Chapter 12. Statement of Cash Flows">
+         <objective xml:id="so_12_01" externalRefs="SO_12.1"
+                    title="Indicate the usefulness of the statement of cash flows."/>
+         <objective xml:id="so_12_02" externalRefs="SO_12.2"
+                    title="Distinguish among operating, investing, and financing activities."/>
+         <objective xml:id="so_12_03" externalRefs="SO_12.3"
+                    title="Explain the impact of the product life cycle on a company's cash flows."/>
+         <objective xml:id="so_12_04" externalRefs="SO_12.4"
+                    title="Prepare a statement of cash flows using the indirect method."/>
+         <objective xml:id="so_12_05" externalRefs="SO_12.5"
+                    title="Use the statement of cash flows to evaluate a company."/>
+         <objective xml:id="so_12_06" externalRefs="SO_12.6"
+                    title="Prepare a statement of cash flows using the direct method."/>
+         <objective xml:id="so_12_07" externalRefs="SO_12.7"
+                    title="Use the T-account approach to prepare a statement of cash flows."/>
+         <objective xml:id="so_12_08" externalRefs="SO_12.8"
+                    title="Compare the accounting procedures for the statement of cash flows under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="c13" externalRef="CH_13"
+               title="Chapter 13. Financial Analysis: The Big Picture">
+         <objective xml:id="so_13_01" externalRefs="SO_13.1"
+                    title="Understand the concept of sustainable income."/>
+         <objective xml:id="so_13_02" externalRefs="SO_13.2"
+                    title="Indicate how irregular items are presented."/>
+         <objective xml:id="so_13_03" externalRefs="SO_13.3"
+                    title="Explain the concept of comprehensive income."/>
+         <objective xml:id="so_13_04" externalRefs="SO_13.4"
+                    title="Describe and apply horizontal analysis."/>
+         <objective xml:id="so_13_05" externalRefs="SO_13.5"
+                    title="Describe and apply vertical analysis."/>
+         <objective xml:id="so_13_06" externalRefs="SO_13.6"
+                    title="Identify and compute ratios used in analyzing a company's liquidity, solvency, and profitability."/>
+         <objective xml:id="so_13_07" externalRefs="SO_13.7"
+                    title="Understand the concept of quality of earnings."/>
+         <objective xml:id="so_13_08" externalRefs="SO_13.8"
+                    title="Evaluate a company comprehensively using ratio analysis."/>
+         <objective xml:id="so_13_09" externalRefs="SO_13.9"
+                    title="Compare the accounting for irregular items and the income statement format under GAAP and IFRS."/>
+      </chapter>
+      <chapter xml:id="a04" externalRef="CH_14" title="Appendix D. Time Value of Money">
+         <objective xml:id="so_D_01" externalRefs="SO_D.1"
+                    title="Distinguish between simple and compound interest."/>
+         <objective xml:id="so_D_02" externalRefs="SO_D.2"
+                    title="Solve for future value of a single amount."/>
+         <objective xml:id="so_D_03" externalRefs="SO_D.3"
+                    title="Solve for future value of an annuity."/>
+         <objective xml:id="so_D_04" externalRefs="SO_D.4"
+                    title="Identify the variables fundamental to solving present value problems."/>
+         <objective xml:id="so_D_05" externalRefs="SO_D.5"
+                    title="Solve for present value of a single amount."/>
+         <objective xml:id="so_D_06" externalRefs="SO_D.6"
+                    title="Solve for present value of an annuity."/>
+         <objective xml:id="so_D_07" externalRefs="SO_D.7"
+                    title="Compute the present value of notes and bonds."/>
+         <objective xml:id="so_D_08" externalRefs="SO_D.8"
+                    title="Use a financial calculator to solve time value of money problems."/>
+      </chapter>
+      <chapter xml:id="a05" externalRef="CH_15"
+               title="Appendix E. Reporting and Analyzing Investments">
+         <objective xml:id="so_E_01" externalRefs="SO_E.1"
+                    title="Identify the reasons corporations invest in stocks and debt securities."/>
+         <objective xml:id="so_E_02" externalRefs="SO_E.2"
+                    title="Explain the accounting for debt investments."/>
+         <objective xml:id="so_E_03" externalRefs="SO_E.3"
+                    title="Explain the accounting for stock investments."/>
+         <objective xml:id="so_E_04" externalRefs="SO_E.4"
+                    title="Describe the purpose and usefulness of consolidated financial statements."/>
+         <objective xml:id="so_E_05" externalRefs="SO_E.5"
+                    title="Indicate how debt and stock investments are valued and reported in the financial statements."/>
+         <objective xml:id="so_E_06" externalRefs="SO_E.6"
+                    title="Distinguish between short-term and long-term investments."/>
+      </chapter>
+   </product>
+</map>

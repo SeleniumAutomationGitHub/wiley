@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="1-5-TestSuite-WPBlackBoardIntegration">
+<test name="WPBlackBoardIntegration">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.WPBlackBoardIntegration.BBStudentViewForIntInstructor">
+<methods>
+<include name="E4_289"/>
+<include name="E4_297"/>
+<include name="E4_298"/>
+<include name="E4_299"/>
+<include name="E4_300"/>
+<include name="E4_302"/>
+<include name="E4_303"/>
+<include name="E4_304"/>
+<include name="E4_307"/>
+<include name="E4_309"/>
+<include name="E4_312"/>
+<include name="E4_313"/>
+</methods>
+</class>
+<class name="Scripts.WPBlackBoardIntegration.BBWPAllAssignmentsDetails">
+<methods>
+<include name="E4_140"/>
+<include name="E4_141"/>
+<include name="E4_148"/>
+<include name="E4_149"/>
+</methods>
+</class>
+<class name="Scripts.WPBlackBoardIntegration.BBWPFinishedClassAccessByDifferentRoles">
+<methods>
+<include name="E4_326"/>
+<include name="E4_327_1"/>
+<include name="E4_327_2"/>
+<include name="E4_328_1"/>
+<include name="E4_328_2"/>
+<include name="E4_329"/>
+<include name="E4_330_1"/>
+<include name="E4_330_2"/>
+<include name="E4_331"/>
+</methods>
+</class>
+<class name="Scripts.WPBlackBoardIntegration.BBWPMoveUsersInActiveandFinishedClass">
+<methods>
+<include name="E4_316"/>
+<include name="E4_317"/>
+<include name="E4_318"/>
+<include name="E4_319"/>
+<include name="E4_320"/>
+<include name="E4_322"/>
+<include name="E4_323"/>
+</methods>
+</class>
+
+<class name="Scripts.WPBlackBoardIntegration.StudentAccessBrokenassignLinksCopiedCourse">
+<methods>
+<include name="E4_173"/>
+<include name="E4_176"/>
+<include name="E4_177"/>
+<include name="E4_178"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

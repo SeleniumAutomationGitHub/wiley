@@ -1,0 +1,20 @@
+<suite name="Assignment-Demo">
+<test name="Assignments">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.CourseAdmin.Sample">
+<methods>
+<include name="samplePrerequiste"/>
+<exclude name="T1"/>
+<exclude name="T2"/>
+<exclude name="T3"/>
+<exclude name="T4"/>
+<exclude name="T5"/>
+<include name="T6"/>
+<include name="T7"/>
+<include name="T8"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

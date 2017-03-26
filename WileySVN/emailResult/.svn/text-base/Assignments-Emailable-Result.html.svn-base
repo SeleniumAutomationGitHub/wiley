@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html> 
+  <head> 
+    <style>.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; color:#FFFFFF; font-size: 12px; font-weight: bold; border-left: 1px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00557F; border-left: 2px solid #E1EEF4;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #E1EEf4; color: #00557F; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4;} .datagrid table tfoot td { padding: 0; font-size: 12px } .datagrid table tfoot td div{ padding: 2px; }.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }.datagrid table tfoot li { display: inline; }.datagrid table tfoot li a { text-decoration: none; display: inline-block; padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration:none;border-color: #00557F; color: #FFFFFF; background: none;background-color:#006699;}</style> 
+  </head>  
+  <body> 
+    <h1 align="center">Assignments</h1>  
+    <div class="datagrid"> 
+      <table id="tblSummary"> 
+        <thead> 
+          <tr> 
+            <th>Script Name</th>  
+            <th>Machine</th>  
+            <th>Browser</th>  
+            <th>Start Time</th>  
+            <th>Status</th> 
+          </tr> 
+        </thead>  
+        <tbody> 
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_19_16_09_023"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 16:09:024</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_19_16_11_009"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 16:11:009</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_19_16_18_031"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 16:18:031</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_19_17_08_005"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 17:08:005</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_19_17_09_005"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 17:09:005</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_19_17_14_024"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 17:14:024</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_19_17_16_006"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/19 17:16:006</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_21_007"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:21:007</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_21_035"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:21:035</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_21_039"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:21:039</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_22_046"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:22:046</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_23_007"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:23:008</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_23_010"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:23:010</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_25_022"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:25:022</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_25_046"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:25:046</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_25_050"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:25:050</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_28_052"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:28:052</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_29_014"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:29:015</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_29_018"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:29:018</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_31_031"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:31:032</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_31_054"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:31:055</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_31_058"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:31:058</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_33_034"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:33:034</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_34_015"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:34:015</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_34_025"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:34:025</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_00_36_038"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:36:039</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-E4_1536-1-2013_11_20_00_39_050"> 
+            <td>AssignmentInstructor-E4_1536</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:39:050</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-createAndValidateNewAssignment-1-2013_11_20_00_58_029"> 
+            <td>AssignmentInstructor-createAndValidateNewAssignment</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 00:58:029</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_02_26_019"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 02:26:020</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_02_30_031"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 02:30:031</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_02_47_011"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 02:47:011</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_02_49_039"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 02:49:039</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_03_32_031"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 03:32:032</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_09_26_059"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 09:26:059</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_09_29_036"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 09:29:036</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_09_33_001"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 09:33:001</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_10_07_024"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 10:07:025</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_10_10_008"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 10:10:008</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_10_12_017"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 10:12:018</td>  
+            <td>PASS</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_10_17_040"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 10:17:040</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_10_30_014"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 10:30:015</td>  
+            <td>FAIL</td> 
+          </tr>  
+          <tr id="1-AssignmentInstructor-assignmentInstructorPrerequsite-1-2013_11_20_11_44_038"> 
+            <td>AssignmentInstructor-assignmentInstructorPrerequsite</td>  
+            <td>localhost</td>  
+            <td>firefox</td>  
+            <td>2013/11/20 11:44:038</td>  
+            <td>FAIL</td> 
+          </tr> 
+        </tbody> 
+      </table> 
+    </div> 
+  </body> 
+</html>

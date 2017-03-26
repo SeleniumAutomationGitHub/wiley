@@ -1,0 +1,33 @@
+<suite name="1-2-Test Suite-CourseAdmin.xml" preserve-order="true">
+<test name="CourseAdmin">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.CourseAdmin.CourseAdminInstructors">
+<methods>
+<exclude name="courseAdmin_Prerequisite"/>
+<exclude name="E4_468"/>
+<exclude name="E4_404"/>
+<exclude name="E4_965"/>
+<exclude name="E4_970"/>
+</methods>
+</class>
+<class name="Scripts.CourseAdmin.CourseAdminClassSections">
+<methods>
+<include name="courseAdmin_Prerequisite"/>
+<include name="E4_469"/>
+<include name="E4_413"/>
+<include name="E4_1028"/>
+<include name="E4_1107"/>
+<include name="E4_1109"/>
+<include name="E4_1112"/>
+<include name="E4_5597"/>
+</methods>
+</class>
+<class name="Scripts.CourseAdmin.CoursePropertiesChange">
+<methods>
+<include name="E4_416"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

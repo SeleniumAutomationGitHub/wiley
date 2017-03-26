@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [1-8-TestSuite-MapleGraph.xml]">
+  <test name="MapleGraph(failed)">
+    <classes>
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+      <class name="Scripts.MapleGraph.GraphingMapleIntegration">
+        <methods>
+          <include name="RenameToGrpahingMaple" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.GraphingMapleIntegration -->
+    </classes>
+  </test> <!-- MapleGraph(failed) -->
+</suite> <!-- Failed suite [1-8-TestSuite-MapleGraph.xml] -->

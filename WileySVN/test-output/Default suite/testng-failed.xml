@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Scripts.LMSIntegration.LMSInstructor">
+        <methods>
+          <include name="E4_1158"/>
+          <include name="E4_1159"/>
+          <include name="E4_1157"/>
+          <include name="E4_1161"/>
+          <include name="E4_1208"/>
+          <include name="Instructorprecondition"/>
+          <include name="E4_1162"/>
+          <include name="E4_1160"/>
+        </methods>
+      </class> <!-- Scripts.LMSIntegration.LMSInstructor -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

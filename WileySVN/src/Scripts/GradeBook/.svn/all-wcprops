@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Wiley/!svn/ver/5920/WileyPlus_Automation/src/Scripts/GradeBook
+END
+GradebookStudentUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Wiley/!svn/ver/5884/WileyPlus_Automation/src/Scripts/GradeBook/GradebookStudentUI.java
+END
+StudentEditAllStudent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5906/WileyPlus_Automation/src/Scripts/GradeBook/StudentEditAllStudent.java
+END
+GradeBookInstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Wiley/!svn/ver/5831/WileyPlus_Automation/src/Scripts/GradeBook/GradeBookInstructor.java
+END
+InstructorEditOneStudent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Wiley/!svn/ver/5893/WileyPlus_Automation/src/Scripts/GradeBook/InstructorEditOneStudent.java
+END
+StudentEditOneStudent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5908/WileyPlus_Automation/src/Scripts/GradeBook/StudentEditOneStudent.java
+END
+StudentSubmitScoreEdited.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Wiley/!svn/ver/5909/WileyPlus_Automation/src/Scripts/GradeBook/StudentSubmitScoreEdited.java
+END
+GradebookPreCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5919/WileyPlus_Automation/src/Scripts/GradeBook/GradebookPreCondition.java
+END
+InstructorSubmitScoreEdited.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Wiley/!svn/ver/5920/WileyPlus_Automation/src/Scripts/GradeBook/InstructorSubmitScoreEdited.java
+END
+InstructorSubmit.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Wiley/!svn/ver/5920/WileyPlus_Automation/src/Scripts/GradeBook/InstructorSubmit.java
+END
+StudentSubmit.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Wiley/!svn/ver/5895/WileyPlus_Automation/src/Scripts/GradeBook/StudentSubmit.java
+END
+InstructorEditAllStudent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Wiley/!svn/ver/5890/WileyPlus_Automation/src/Scripts/GradeBook/InstructorEditAllStudent.java
+END
+GradebookInstructorUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5884/WileyPlus_Automation/src/Scripts/GradeBook/GradebookInstructorUI.java
+END

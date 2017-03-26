@@ -1,0 +1,645 @@
+
+//1.8. Test Suite : [PC-394] Maple Graphing
+//1.8.1. Test Suite : MapleNet Graphing questions in assignments-instructor
+
+package Scripts.MapleGraph;
+
+
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import Pages.MapleGraph.MapleGraphPage;
+import Scripts.Misc.Prerequsite;
+import Toolbox.Browser;
+import Toolbox.ResultUtil;
+import Util.LMSMGDataProviderUtil.staticProviderClass;
+import Pages.Assignments.*;
+
+public class MapleGraphingQuestionsInstructor {
+	//Test Case E4_4428: Assignemtns preview including MG questions
+
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4428(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4428",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage =PageFactory.initElements(driver, MapleGraphPage.class);
+
+		mapleGraphPage.MGInstructorlogin(dataMap);
+	
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+	
+		//click on create assignment
+		mapleGraphPage.clickCreateAssignment();
+
+		//enter details on the assignment
+		mapleGraphPage.describeAssignment(dataMap);
+
+		mapleGraphPage.closeBrowser();
+
+	}
+	
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-4429: Create a new assignment including Maple Graphing
+	public void E4_4429(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4429",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		mapleGraphPage.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//click on questions mgmt
+		mapleGraphPage.questionsMgmt();
+
+		//closebrowser
+		mapleGraphPage.closeBrowser();
+
+
+
+	}
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-4430: Edit assignment including MG question
+	public void E4_4430_1(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("	 MapleGraphingQuestionsInstructor-E4_4430_1",dataMap);
+
+		//String strURL="http://edugen-qa.wileyplus.com";
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		mapleGraphPage.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+
+		//edit assignment
+		mapleGraphPage.editAssignment(dataMap);
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+
+
+
+
+	}
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-4430: DeleteAssignment including MG question
+	public void E4_4430_2(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4430",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		mapleGraphPage.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+
+		//delete assignment
+		mapleGraphPage.deleteAssignment(dataMap);
+		
+		//dismissalert
+		mapleGraphPage.dismissalert();
+		
+		//create assignment..this can be used as precondition
+		mapleGraphPage.createAssignment(dataMap);
+		
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+	
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4_4431: Copy and Edit an assignment including a MG questions
+	public void E4_4431(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4431",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//edit assignment
+		mapleGraphPage.copyeditAssignment(dataMap);
+
+		//describe assignment
+		mapleGraphPage.describeAssignment(dataMap);
+		
+		//click on next button
+		mapleGraphPage.clickNextButton();
+
+		//click on next again
+		mapleGraphPage.clickNextButton();
+
+		//click on next again
+		mapleGraphPage.clickNextButton();
+		
+		//verifying tabs
+		mapleGraphPage.verifyTabsText();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+		
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//2nd part of Test Case E4-4433: Assign an assignment including a MG question
+	public void E4_4433_1(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4433_1",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+	
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//click on unassign
+		mapleGraphPage.assignAssignment(dataMap);
+
+		//check maple
+		//mapleGraphPage.checkboxMaple();
+
+		//click on submit
+		mapleGraphPage.clickMaplesubmit();
+
+		//unassign
+		mapleGraphPage.unAssignAssignment(dataMap);
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//Test Case E4-4434: Unassign an assignment including a MG questions
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4433_2(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4433_2",dataMap);
+
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//aasign verify
+		mapleGraphPage.assignverify(dataMap);
+
+		//assign assignment
+		mapleGraphPage.assignAssignment(dataMap);
+		
+		//checkbox
+	//	mapleGraphPage.checkboxMaple();
+
+		//click on submit
+		mapleGraphPage.clickMaplesubmit();
+
+		//delete assignment
+		mapleGraphPage.deleteAssignment(dataMap);
+		
+		//close the browser
+		mapleGraphPage.closeBrowser();
+	}
+
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-4435: Restore an assignment including a MG question
+	public void E4_4435(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4435",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+
+		//closing browser
+		mapleGraphPage.clickInsDomainUser(dataMap);
+
+		//login as instructor and go toAssignment	
+		mapleGraphPage.clickAssignmentTab();
+
+		//click on assignment go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//pre-condition
+		mapleGraphPage.assignverify(dataMap);
+
+		//assignment assigning
+		mapleGraphPage.assignAssignment(dataMap);
+
+		//check on classsection
+		//mapleGraphPage.checkclasssection();
+
+		//submit
+		mapleGraphPage.clickclasssubmit();
+
+		//unassignrestore
+		mapleGraphPage.unAssignrestoreAssignment();
+
+		//resotre go
+		mapleGraphPage.clickRestoreGo(dataMap);
+
+		//accept alert
+		mapleGraphPage.acceptalert();
+
+		//restoreassignment
+		mapleGraphPage.restoreAssignment();
+
+		//restorego
+		mapleGraphPage.clickRestoreGo(dataMap);
+
+		//accept alert
+		mapleGraphPage.acceptalert();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//Test Case E4_4436: Clear an assignment including MG question
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void clearAssignment(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4436",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+
+		//closing browser
+		mapleGraphPage.clickInsDomainUser(dataMap);
+
+		//login as instructor and go toAssignment	
+		mapleGraphPage.clickAssignmentTab();
+
+		mapleGraphPage.clickAssignmentGo();
+
+		//unassign restore
+		mapleGraphPage.unAssignrestoreAssignment();
+
+		//click on restorego
+		mapleGraphPage.clickRestoreGo(dataMap);
+
+		//accept alert
+		mapleGraphPage.acceptalert();
+
+		//clear assignment
+		mapleGraphPage.ClearAssignment();	
+
+		//dismiss alert
+		mapleGraphPage.dismissalert();
+		
+		//close browser
+		mapleGraphPage.closeBrowser();
+	}
+
+
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	//Test Case E4-4437: Edit the availability of an assignment including MG question
+	public void E4_4437(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4437",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//to login into the course admin first time
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+		
+		//cllick on go
+		mapleGraphPage.clickAssignmentGo();
+		
+		//click on unassign
+		mapleGraphPage.assignverify(dataMap);
+
+		//assign ment
+		mapleGraphPage.assignAssignment(dataMap);
+
+		//check the class
+	//	mapleGraphPage.checkclasssection();
+		
+		//assigngo
+		mapleGraphPage.assigngoSubmit();
+
+		//edit availability
+		mapleGraphPage.editAvailabilityAssignment(dataMap);
+
+		//unassignment
+		mapleGraphPage.unAssignAssignment(dataMap);
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//Test Case E4_4438: Create a new question pool including a MG question
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4438(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4438",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//login to maple graph
+		mapleGraphPage.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on assignment
+		mapleGraphPage.clickAssignmentTab();
+
+		//click on question
+		//mapleGraphPage.clickQuestion();
+
+		//closebrowser
+		mapleGraphPage.closeBrowser();
+	}
+
+
+	//Test Case E4-4439: View student resuts of MG questions in Gradebook
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4439(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4439",dataMap);
+		
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		mapleGraphPage.MGStudentlogin(dataMap);
+
+		//click on login user name
+		mapleGraphPage.clickstuDomainUser(dataMap);
+		
+		//click on gradebook
+		mapleGraphPage.clickGradebook();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+	}
+
+	//Test Case E4-4440: Manually edit student scores of MG questions in the Gradebook
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4440(Map<String,String> dataMap) throws Exception{
+		
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4440",dataMap);
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		//login
+		mapleGraphPage.MGInstructorlogin(dataMap);
+
+		//select domain as math
+		mapleGraphPage.clickInsDomainUser(dataMap);
+
+		//click on gradebook
+		mapleGraphPage.clickGradebook();
+
+		//clock on gradebook go
+		mapleGraphPage.gradebookGo();
+
+		//click on studentgrade
+		mapleGraphPage.studentgrade();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+	}
+
+
+	//Test Case E4-4571: Print MG questions
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4571(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4571",dataMap);
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+		
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		driver.manage().window().maximize();
+
+		MapleGraphPage home=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		MapleGraphPage mapleGraphPage = home.MGInstructorlogin(dataMap);
+		
+		//click on login user name
+		mapleGraphPage.clickInsDomainUser(dataMap);
+		
+		//click on Go
+		//click on assignmenttab
+		mapleGraphPage.clickAssignmentTab();
+
+		//click on assignment go
+		mapleGraphPage.clickAssignmentGo();
+
+		//enter details on the assignment
+		mapleGraphPage.clickAssignName();
+
+		//close the browser
+		mapleGraphPage.closeBrowser();
+
+	}
+
+	//Test Case E4-4572: Report a content error for maple graphing questions
+	@Test(dataProvider="MapleGraph",dataProviderClass=staticProviderClass.class)
+	public void E4_4572(Map<String,String> dataMap) throws Exception{
+
+		ResultUtil.createReport("MapleGraphingQuestionsInstructor-E4_4572",dataMap);
+
+
+		String strEnv=Prerequsite.configMap.get("ENV");
+		String strURL=Prerequsite.configMap.get(strEnv+".EDUGEN_URL");
+
+		//Launch URL
+		WebDriver driver=Browser.launchURL(dataMap.get("Machine"), dataMap.get("Port"), dataMap.get("Browser"), strURL);
+
+		MapleGraphPage mapleGraphPage=PageFactory.initElements(driver, MapleGraphPage.class);
+
+		mapleGraphPage.MGInstructorlogin(dataMap);
+		
+		//click on domain link
+		mapleGraphPage.clickInsDomainUser(dataMap);
+
+		//access gradebok
+		mapleGraphPage.accessGradebook();
+
+		//click on go
+		mapleGraphPage.gradebookGo();
+
+		//click on student grade
+		mapleGraphPage.studentgrade();
+
+		//access report content error link
+		mapleGraphPage.reportContent();
+
+		//close browser
+		mapleGraphPage.closeBrowser();
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assignment-Demo]">
+  <test name="Assignments(failed)">
+    <classes>
+      <class name="Scripts.CourseAdmin.Sample">
+        <methods>
+          <include name="E4_980"/>
+          <include name="E4_976"/>
+          <include name="samplePrerequiste"/>
+        </methods>
+      </class> <!-- Scripts.CourseAdmin.Sample -->
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+    </classes>
+  </test> <!-- Assignments(failed) -->
+</suite> <!-- Failed suite [Assignment-Demo] -->

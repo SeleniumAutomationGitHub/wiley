@@ -1,0 +1,19 @@
+<suite name="1-2-Test Suite-SnapwizIntegration">
+<test name="SnapwizIntegration">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentStandalone"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentsECollege"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentsAngel"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentOldLTI"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentNewLTI"/>
+<class name="Scripts.SnapwizIntegration.ORIONAssignmentCreate"/>
+<class name="Scripts.SnapwizIntegration.ORIONIconUpdate"/>
+<class name="Scripts.SnapwizIntegration.ORIONNavigationalTab"/>
+<class name="Scripts.SnapwizIntegration.BBOrionNavigationalTab"/>
+<class name="Scripts.SnapwizIntegration.SnapwizIntegrationSetUp"/>
+<class name="Scripts.SnapwizIntegration.SnapwizIntegrationOrionDisAbled"/>
+<class name="Scripts.SnapwizIntegration.BlackboardEula"/>
+</classes>
+</test>
+</suite>

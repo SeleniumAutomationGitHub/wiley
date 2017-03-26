@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Wiley/!svn/ver/5915/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration
+END
+BBWPIntfinishedAdminInterfaceLTI.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Wiley/!svn/ver/4972/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBWPIntfinishedAdminInterfaceLTI.java
+END
+BBInstructorAssignmentAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Wiley/!svn/ver/4970/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBInstructorAssignmentAccess.java
+END
+BBWPFinishedClassAccessByDifferentRoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Wiley/!svn/ver/5728/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBWPFinishedClassAccessByDifferentRoles.java
+END
+CreateEditDeleteConsumers.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Wiley/!svn/ver/5862/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/CreateEditDeleteConsumers.java
+END
+BBContentDiscoveryToolLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBContentDiscoveryToolLinks.java
+END
+ContentDiscoveryEditionSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/ContentDiscoveryEditionSupport.java
+END
+BBWPAllAssignmentsDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Wiley/!svn/ver/5728/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBWPAllAssignmentsDetails.java
+END
+BBStudentViewForIntInstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wiley/!svn/ver/5745/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBStudentViewForIntInstructor.java
+END
+BBWPIntFinishedclassLTITarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wiley/!svn/ver/5215/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBWPIntFinishedclassLTITarget.java
+END
+LTIConfigurationBlackboardConsumers.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/LTIConfigurationBlackboardConsumers.java
+END
+LTIConfigurationGUIValidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wiley/!svn/ver/5915/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/LTIConfigurationGUIValidation.java
+END
+BBSmartContentRefreshUsecasesTestSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Wiley/!svn/ver/5751/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBSmartContentRefreshUsecasesTestSuite.java
+END
+BBInstructorContentDAWileyplusHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBInstructorContentDAWileyplusHomePage.java
+END
+ContentDiscoveryStaticBBTargets.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/ContentDiscoveryStaticBBTargets.java
+END
+BBStudentContentDAWileyplusHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Wiley/!svn/ver/4971/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBStudentContentDAWileyplusHomePage.java
+END
+BBStudentContentDAToolsLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBStudentContentDAToolsLinks.java
+END
+BBWPMoveUsersInActiveandFinishedClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Wiley/!svn/ver/5728/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBWPMoveUsersInActiveandFinishedClass.java
+END
+BBInstructorContentDAToolsLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Wiley/!svn/ver/4924/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBInstructorContentDAToolsLinks.java
+END
+BBContentDiscoveryContentLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBContentDiscoveryContentLinks.java
+END
+BBContentDiscoveryEditionSupportPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/BBContentDiscoveryEditionSupportPage.java
+END
+ContentDiscoveryContentLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/ContentDiscoveryContentLinks.java
+END
+LTIConfigurationFunctionality.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/LTIConfigurationFunctionality.java
+END
+ContentDiscoveryToolsLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Wiley/!svn/ver/4887/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/ContentDiscoveryToolsLinks.java
+END
+StudentAccessBrokenassignLinksCopiedCourse.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wiley/!svn/ver/5728/WileyPlus_Automation/src/Scripts/WPBlackBoardIntegration/StudentAccessBrokenassignLinksCopiedCourse.java
+END

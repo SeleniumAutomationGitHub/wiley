@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  Assignments</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Assignments</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 10 12:10:39 IST 2013</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79232 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scripts.Assignments.AssignmentInstructor.createAndValidateNewAssignment()'><b>createAndValidateNewAssignment</b><br>Test class: Scripts.Assignments.AssignmentInstructor<br>Parameters: {Iteration=1, Machine=localhost, Port=4444, Browser=firefox, Email=paroshkumar.pm@gavsin.com, Password=123456, Email B=pmanoharan@wiley.com, Password B=stark1234, Username=Parosh Manoharan, DomainName=Mahender Tirumala Automation 1, LongCharacAsgntName=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntID=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntDescribtion=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, AsgntName=TestAutomation, AsgntID=TestAutomation, AsgntDescribtion=TestAutomation, EditAssignment=Edit Assignment, SourceName=Manohar, ClassName=Kamalakannan Class 1, AllClassSection=All Class Sections, SetQuestionPolicies=Point Potential Setting:, Showperpage10=10, Showperpage20=20, Showperpage30=30, Showperpage50=50, Showperpage100=100, ShowperpageAll=All, PageNavigator1=1, PageNavigator2=2, ScoreDefaultValue=1.0, ChangeScoreValue=2.0, TotalScoreValue=5, TotalScoreValue 1=6, SymbolValue=*, HighestValue=1000, DecimalValue=0.5, FractionValue=5.6, AssignmentSource=Wiley (Assessment), NonAlgorthimQuestion=BE1-1, AlgorthimQuestions=ABE1-1, QuestionOrder=1, NewAssginId=Test1, NewAssignName=TestUpdate, Source=Parosh Manohar, StudentUsername=Kamalakannan.wiley@gavsin.com, StudentPassword=123456, Status=TestAutomation, AssignmentId=Manohar, StudentNameLink=TestAutomation, Question Type=Parosh, Associate=Survey, StudyObjectives=Chapter 1. Accounting in Action, Level=Describe how the cost principle applies to plant assets., QuestionTitle=Easy, QuestionText=E1-3-4, PoolName=Larry Smith, president of Smith Company, has instructed Ron Rivera, the head of the accounting department for Smith Company, to report the company's land in the company's accounting reports at its market value of $170,000 instead of its cost of $100,000. Smith says, "Showing the land at $170,000 will make our company look like a better investment when we try to attract new investors next month.", AdminUrl=Automation Question Pool, AdminUsername=NewTestAutomationID, AdminPassword=NewTestAutomationName, CourseName=https://edugen-qa.wileyplus.com/edugen/secure/admin/login.uni, AsgntNameMulti=Edugen@wiley.com, LongReportComments=edugen, ModifyName=Weygandt, Accounting Principles, 9e, ActualName=Test-MultipleChoice, ReportComment=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, AsgntNamePractice=ROBERT KIM, ClassStudentName=ROBERT KIMMEL, AssignmentName=TestAutomationReportComment, Question 1=Test- PracticeQuestion, Question 2=Kamalakannan Class 1 - started, Question 3=Parosh, MultiChapters=Test- PracticeQuestion, MultiLevels=Self Study, Question 1, MultiSources=Self Study, Question 2, DomainOwner=Self Study, Question 3, DomainPwd=Test- PracticeQuestion1, DomainURL=Chapter 1. Accounting in Action;Chapter 2. The Recording Process;Chapter 4. Completing the Accounting Cycle;Chapter 6. Inventories, DomainClassURL=Easy;Hard;Medium, AssignmentA=Wiley (Assessment);Wiley (Testbank);Wiley (Practice);Me, AssignmentB=demo-instructor, AssignmentC=demo, AsgntNameTimed=http://edugen-qa.wileyplus.com/edugen/domain/dmn7172/, StudyObjective=http://edugen-qa.wileyplus.com/edugen/class/cls334414/, StudyObjectiveChapter=Assignment A, DisplayID=Assignment B, DisplayName=Assignment C}</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentInstructor.createAndValidateNewAssignment(AssignmentInstructor.java:52)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24046166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24046166'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentInstructor.createAndValidateNewAssignment(AssignmentInstructor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>5</td>
+<td>Scripts.Assignments.AssignmentInstructor@14005e1</td></tr>
+<tr>
+<td title='Scripts.Assignments.AssignmentPrintedTest.createAssignmentWithPrintedTestValidation()'><b>createAssignmentWithPrintedTestValidation</b><br>Test class: Scripts.Assignments.AssignmentPrintedTest<br>Parameters: {Iteration=1, Machine=10.0.25.59, Port=4444, Browser=Firefox, Email=krajamanic@wiley.com, Password=test12, Username=Parosh Manoharan, DomainName=Mahender Tirumala Automation 1, LongCharacAsgntName=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntID=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntDescribtion=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, AsgntName=TestRun, AsgntID=TestRun, AsgntDescribtion=TestAutomation, EditAssignment=Edit Assignment, ClassName=Kamalakannan Class 1, SetQuestionPolicies=Point Potential Setting:, Showperpage10=10, Showperpage20=20, Showperpage30=30, Showperpage50=50, Showperpage100=100, ShowperpageAll=All, PageNavigator1=1, PageNavigator2=2, ScoreDefaultValue=1.0, ChangeScoreValue=2.0, TotalScoreValue=5, TotalScoreValue 1=6, SymbolValue=*, GreaterValue=1000, lesserValue=0.5, FractionalValue=5.6, AssignmentSource=Wiley (Assessment), NonAlgorthimQuestion=Essay, Question 228, AlgorthimQuestions=ABE1-1, AssignmentValue2=version2, AssignmentValue1=version1, AssignmentValue10=version10, Version No.1=1, ModifyName=Manickam, ActualName=RajaManickam, Version No.2=2.0, Source =Kamalakannan Rajamanickamm, NewAssginId=newID, NewAssignName=newName, DomainURL=http://edugen-qa.wileyplus.com/edugen/domain/dmn7172/, DomainOwner=demo-instructor, DomainPwd=test12, AlgorithmicQuestion=Chapter 0, Review Exercises, Question 14, DomainClassURL=http://edugen-qa.wileyplus.com/edugen/class/cls332816/, 100Characters=abcdefghijklmnopqrstuvwxyz,zyxwvutsrqponmlkjihgfedcba,abcdefghijklmnopqrstuvwxyz,zyxwvutsrqponmlkjihgfedcba, SourceName=Manohar, MultiChapters=Chapter 1. Accounting in Action;Chapter 2. The Recording Process;Chapter 4. Completing the Accounting Cycle;Chapter 6. Inventories, QuestionOrder=1, Question=E1-3, LongReportComments=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, ReportComment=TestAutomationReportComment}</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentPrintedTest.createAssignmentWithPrintedTestValidation(AssignmentPrintedTest.java:41)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14917636", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14917636'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentPrintedTest.createAssignmentWithPrintedTestValidation(AssignmentPrintedTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>25</td>
+<td>Scripts.Assignments.AssignmentPrintedTest@a98e77</td></tr>
+<tr>
+<td title='Scripts.Assignments.AssignmentReadingsResources.createAssignmentWithReadingsResources()'><b>createAssignmentWithReadingsResources</b><br>Test class: Scripts.Assignments.AssignmentReadingsResources<br>Parameters: {Iteration=1, Machine=10.0.25.59, Port=4444, Browser=Firefox, Email=pmanoharan@wiley.com, Password=stark1234, Email B=paroshkumar.pm@gavsin.com, Password B=123456, Username=Parosh Manoharan, DomainName=Mahender Tirumala Automation 1, LongCharacAsgntName=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntID=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, LongCharacAsgntDescribtion=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, AsgntName=WileyPlusAssignment, AsgntID=Fin, AsgntDescribtion=TestAutomation-Finance, EditAssignment=Edit Assignment, SourceName=KIMMEL, ClassName=Kamalakannan Class 1, SetQuestionPolicies=Point Potential Setting:, Showperpage10=10, Showperpage20=20, Showperpage30=30, Showperpage50=50, Showperpage100=100, ShowperpageAll=All, PageNavigator1=1, PageNavigator2=2, ScoreDefaultValue=1.0, ChangeScoreValue=2.0, TotalScoreValue=5, TotalScoreValue 1=6, SymbolValue=*, HighestValue=1000, DecimalValue=0.5, FractionValue=5.6, AssignmentSource=Wiley (Assessment), NonAlgorthimQuestion=BE1-1, AlgorthimQuestions=ABE1-1, QuestionOrder=1, ModifyName=ROBERT KIM, ActualName=ROBERT KIMMEL, LongDescriptionscrolling=TestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomationTestAutomation, StudentUsername=Kamalakannan.wiley@gavsin.com, StudentPassword=123456, Source=ROBERT KIMMEL, NewAssginId=BB-1, NewAssignName=BB, AllClassSection=All Class Sections, AssignmentValue1=Assign}</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentReadingsResources.createAssignmentWithReadingsResources(AssignmentReadingsResources.java:42)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8314039", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8314039'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.HomePage.login(HomePage.java:71)
+	at Scripts.Assignments.AssignmentReadingsResources.createAssignmentWithReadingsResources(AssignmentReadingsResources.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>24</td>
+<td>Scripts.Assignments.AssignmentReadingsResources@1c83d89</td></tr>
+<tr>
+<td title='Scripts.Assignments.MathEnhancement.mathEnhanceShowWork()'><b>mathEnhanceShowWork</b><br>Test class: Scripts.Assignments.MathEnhancement<br>Parameters: {Iteration=1, Machine=localhost, Port=4444, Browser=firefox, Email=paroshkumar.pm@gavsin.com, Password=123456, AsgntNameMulti=Test-MultipleChoice, AsgntNamePractice=Test- PracticeQuestion, DomainName=Mahender Tirumala Automation 1, StudentNameLink=Parosh, AssignmentName=Test- PracticeQuestion1, AdminUsername=Edugen@wiley.com, AdminPassword=edugen, Question 1=Self Study, Question 1, Question 2=Self Study, Question 2, Question 3=Self Study, Question 3, CourseName=Weygandt, Accounting Principles, 9e, ID=ID: cls332816/asnmt1104677/tq493401407.0.noparts - 1 page.}</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.StudentLoginpage.loginPageStudent(StudentLoginpage.java:53)
+	at Scripts.Assignments.MathEnhancement.mathEnhanceShowWork(MathEnhancement.java:46)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16870216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16870216'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.StudentLoginpage.loginPageStudent(StudentLoginpage.java:53)
+	at Scripts.Assignments.MathEnhancement.mathEnhanceShowWork(MathEnhancement.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>2</td>
+<td>Scripts.Assignments.MathEnhancement@41f871</td></tr>
+<tr>
+<td title='Scripts.Assignments.StudentAssignment.studentSubmitsAssignment()'><b>studentSubmitsAssignment</b><br>Test class: Scripts.Assignments.StudentAssignment<br>Parameters: {Iteration=1.0, Port=4444, Machine=10.0.25.59, Browser=Firefox, StudentUsername=Kamalakannan.wiley@gavsin.com, StudentPassword=123456, AsgntName=Test-Assignment, AsgntNameMulti=Test-MultipleChoice, AsgntNametxtentry=Test-TextEntry, AnswersFortxtentry=Accounting, AsgntNametxtentryUnits=Tolerance, AnswersFortxtentryNumeric=40102, AsgntNametxtEntryWithdrpdwn=Test-TextEntryDropdown, AsgntNameMatching=Test-Matching, AsgntNameVariousSettings=Test-VariousSettings, AsgntNameStudyObjective=Test-StudyObjective, AsgntName100Question=Test-100Question, AsgntNameQuestionPool=Test-Questionpool, AsgntNameMultistep=Test-Multistep, Values=3000.0, AsgntNameViewOnly=Test-Viewonly, AsgntNameViewAssistance=Test-ViewAssistance, AsgntNameNoDue=Test-NoDue, AsgntNameReadingResource=Test-ReadingResource, DomainClassURL=http://edugen-qa.wileyplus.com/edugen/class/cls334414/, ToleranceValue=-1, Email B=paroshkumar.pm@gavsin.com, Password B=123456, AsgntNameAsgnt1=Goegraphy, AsgntNameAsgnt2=MicroProcessor, MasteryAssignment=13C NMR Spectra, ConceptMasteryURL=http://edugen-qa.wileyplus.com/edugen/class/cls334540/, AsgntNameTimed=Test-TimedAssignment (Timed), AdminUrl=https://edugen-qa.wileyplus.com/edugen/secure/admin/login.uni, AdminUsername=Edugen@wiley.com, AdminPassword=edugen, CourseName=Weygandt, Accounting Principles, 9e, AsgntNameFuture=Test- FutureDate, AsgntNameTimed1=Test-TimedAssignment 1 (Timed), AsgntNameTimed2=Test-TimedAssignment 2 (Timed), SameValues=UseSame, NewValues=UseNew, AsgntNameMultistepImmediatefeedback=Test-MultistepImmediateFeedback, AsgntNameVariousSettings1=Test-VariousSettings1}</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.StudentLoginpage.loginPage(StudentLoginpage.java:38)
+	at Scripts.Assignments.StudentAssignment.studentSubmitsAssignment(StudentAssignment.java:40)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8981081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8981081'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at Toolbox.TextBox.enterValue(TextBox.java:12)
+	at Pages.Common.StudentLoginpage.loginPage(StudentLoginpage.java:38)
+	at Scripts.Assignments.StudentAssignment.studentSubmitsAssignment(StudentAssignment.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>21</td>
+<td>Scripts.Assignments.StudentAssignment@11df416</td></tr>
+</table><p>
+</body>
+</html>

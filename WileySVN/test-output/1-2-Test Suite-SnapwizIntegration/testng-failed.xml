@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [1-2-Test Suite-SnapwizIntegration]">
+  <test name="SnapwizIntegration(failed)">
+    <classes>
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+      <class name="Scripts.SnapwizIntegration.SnapwizIntegrationSetUp">
+        <methods>
+          <include name="E4_5478"/>
+          <include name="E4_5479"/>
+          <include name="E4_5480"/>
+        </methods>
+      </class> <!-- Scripts.SnapwizIntegration.SnapwizIntegrationSetUp -->
+    </classes>
+  </test> <!-- SnapwizIntegration(failed) -->
+</suite> <!-- Failed suite [1-2-Test Suite-SnapwizIntegration] -->

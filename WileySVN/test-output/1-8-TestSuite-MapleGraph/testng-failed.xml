@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [1-8-TestSuite-MapleGraph]">
+  <test name="MapleGraph(failed)">
+    <classes>
+      <class name="Scripts.MapleGraph.ImagePlaceHolderIVonDemand">
+        <methods>
+          <include name="E4_5117" invocation-numbers="0"/>
+          <include name="E4_5080" invocation-numbers="0"/>
+          <include name="E4_5082" invocation-numbers="0"/>
+          <include name="E4_5109" invocation-numbers="0"/>
+          <include name="E4_5045" invocation-numbers="0"/>
+          <include name="E4_5067" invocation-numbers="0"/>
+          <include name="E4_5060" invocation-numbers="0"/>
+          <include name="E4_5102" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.ImagePlaceHolderIVonDemand -->
+      <class name="Scripts.MapleGraph.RenameToGraphingMapleInstructor">
+        <methods>
+          <include name="E4_4906" invocation-numbers="0"/>
+          <include name="E4_4905" invocation-numbers="0"/>
+          <include name="E4_4902" invocation-numbers="0"/>
+          <include name="E4_4899" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.RenameToGraphingMapleInstructor -->
+      <class name="Scripts.MapleGraph.GraphingMapleIntegration">
+        <methods>
+          <include name="E4_5284" invocation-numbers="0"/>
+          <include name="E4_5282_4" invocation-numbers="0"/>
+          <include name="E4_5282_1" invocation-numbers="0"/>
+          <include name="E4_5282_3" invocation-numbers="0"/>
+          <include name="E4_5282_2" invocation-numbers="0"/>
+          <include name="E4_5281" invocation-numbers="0"/>
+          <include name="E4_5244" invocation-numbers="0"/>
+          <include name="E4_5238" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.GraphingMapleIntegration -->
+      <class name="Scripts.MapleGraph.GraphingMapleHelpLink">
+        <methods>
+          <include name="E4_4950" invocation-numbers="0"/>
+          <include name="E4_4955" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.GraphingMapleHelpLink -->
+      <class name="Scripts.MapleGraph.SupportDisableFeedback">
+        <methods>
+          <include name="E4_5143" invocation-numbers="0"/>
+          <include name="E4_4970" invocation-numbers="0"/>
+          <include name="E4_5134" invocation-numbers="0"/>
+          <include name="E4_5021_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.SupportDisableFeedback -->
+      <class name="Scripts.MapleGraph.RenameToGraphingMapleAdmin">
+        <methods>
+          <include name="E4_4908"/>
+          <include name="E4_4913"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.RenameToGraphingMapleAdmin -->
+      <class name="Scripts.MapleGraph.MapleGraphingQuestionsStudent">
+        <methods>
+          <include name="E4_4633"/>
+          <include name="E4_4444"/>
+          <include name="E4_4443"/>
+          <include name="E4_4445"/>
+          <include name="E4_4442"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.MapleGraphingQuestionsStudent -->
+      <class name="Scripts.MapleGraph.MapleGraphingQuestionsInstructor">
+        <methods>
+          <include name="E4_4440" invocation-numbers="0"/>
+          <include name="E4_4433_1" invocation-numbers="0"/>
+          <include name="E4_4429" invocation-numbers="0"/>
+          <include name="E4_4433_2" invocation-numbers="0"/>
+          <include name="E4_4571" invocation-numbers="0"/>
+          <include name="E4_4430_2" invocation-numbers="0"/>
+          <include name="E4_4572" invocation-numbers="0"/>
+          <include name="E4_4437" invocation-numbers="0"/>
+          <include name="E4_4438" invocation-numbers="0"/>
+          <include name="E4_4439" invocation-numbers="0"/>
+          <include name="E4_4435" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.MapleGraphingQuestionsInstructor -->
+      <class name="Scripts.Misc.Prerequsite">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Misc.Prerequsite -->
+      <class name="Scripts.MapleGraph.CorrectionsAdditions">
+        <methods>
+          <include name="E4_5470"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.CorrectionsAdditions -->
+      <class name="Scripts.MapleGraph.SupportPrinting">
+        <methods>
+          <include name="E4_4948" invocation-numbers="0"/>
+          <include name="E4_4924" invocation-numbers="0"/>
+          <include name="E4_4942" invocation-numbers="0"/>
+          <include name="E4_4938" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.MapleGraph.SupportPrinting -->
+    </classes>
+  </test> <!-- MapleGraph(failed) -->
+</suite> <!-- Failed suite [1-8-TestSuite-MapleGraph] -->

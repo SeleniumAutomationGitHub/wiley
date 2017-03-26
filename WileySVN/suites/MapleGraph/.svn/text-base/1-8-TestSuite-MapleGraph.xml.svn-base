@@ -1,0 +1,113 @@
+<suite name="1-8-TestSuite-MapleGraph">
+<test name="MapleGraph">
+<classes>
+<class name="Scripts.Misc.Prerequsite"/>
+<class name="Scripts.MapleGraph.GraphingMapleIntegration">
+<methods>
+<include name="E4_5244"/>
+<include name="E4_5282_1"/>
+<include name="E4_5282_2"/>
+<include name="E4_5282_3"/>
+<include name="E4_5282_4"/>
+<include name="E4_5281"/>
+<include name="E4_5284"/>
+<include name="E4_5238"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.GraphingMapleHelpLink">
+<methods>
+<include name="E4_4950"/>
+<include name="E4_4955"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.CorrectionsAdditions">
+<methods>
+<include name="E4_5470"/>
+<include name="E4_5471"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.ImagePlaceHolderIVonDemand">
+<methods>
+<include name="E4_5080"/>
+<include name="E4_5102"/>
+<include name="E4_5082"/>
+<include name="E4_5045"/>
+<include name="E4_5060"/>
+<include name="E4_5067"/>
+<include name="E4_5109"/>
+<include name="E4_5117"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.MapleGraphingQuestionsInstructor">
+<methods>
+<include name="E4_4429"/>
+<include name="E4_4430"/>
+<include name="E4_4430_2"/>
+<include name="E4_4433_1"/>
+<include name="E4_4433_2"/>
+<include name="E4_4435"/>
+<include name="E4_4436"/>
+<include name="E4_4437"/>
+<include name="E4_4438"/>
+<include name="E4_4439"/>
+<include name="E4_4440"/>
+<include name="E4_4571"/>
+<include name="E4_4572"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.MapleGraphingQuestionsStudent">
+<methods>
+<include name="E4_4633"/>
+<include name="E4_4442"/>
+<include name="E4_4443"/>
+<include name="E4_4444"/>
+<include name="E4_4445"/>
+<include name="E4_4426"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.RenameToGraphingMapleAdmin">
+<methods>
+<include name="E4_4918"/>
+<include name="E4_4922"/>
+<include name="E4_4913"/>
+<include name="E4_4908"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.RenameToGraphingMapleInstructor">
+<methods>
+<include name="E4_4899"/>
+<include name="E4_4902"/>
+<include name="E4_4905"/>
+<include name="E4_4906"/>
+</methods>
+</class>
+
+<class name="Scripts.MapleGraph.SupportDisableFeedback">
+<methods>
+<include name="E4_4970"/>
+<include name="E4_5021_1"/>
+<include name="E4_5022_2"/>
+<include name="E4_5134"/>
+<include name="E4_5143"/>
+
+</methods>
+</class>
+<class name="Scripts.MapleGraph.SupportPrinting">
+<methods>
+<include name="E4_4938"/>
+<include name="E4_4924"/>
+<include name="E4_4948"/>
+<include name="E4_4942"/>
+</methods>
+</class>
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common
+END
+GradeBookPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common/GradeBookPage.java
+END
+HomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Wiley/!svn/ver/5619/WileyPlus_Automation/src/Pages/Common/HomePage.java
+END
+GoToAddInstructorPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Wiley/!svn/ver/5905/WileyPlus_Automation/src/Pages/Common/GoToAddInstructorPage.java
+END
+CourseHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Wiley/!svn/ver/5905/WileyPlus_Automation/src/Pages/Common/CourseHomePage.java
+END
+StudentHomepage.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common/StudentHomepage.java
+END
+EcollegeLoginPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Wiley/!svn/ver/5905/WileyPlus_Automation/src/Pages/Common/EcollegeLoginPage.java
+END
+Initializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Wiley/!svn/ver/5230/WileyPlus_Automation/src/Pages/Common/Initializer.java
+END
+CourseSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Wiley/!svn/ver/5775/WileyPlus_Automation/src/Pages/Common/CourseSelectionPage.java
+END
+StudentLoginpage.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Wiley/!svn/ver/5620/WileyPlus_Automation/src/Pages/Common/StudentLoginpage.java
+END
+AngelCourseLoginPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Wiley/!svn/ver/5907/WileyPlus_Automation/src/Pages/Common/AngelCourseLoginPage.java
+END
+LogoutSessionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Wiley/!svn/ver/5620/WileyPlus_Automation/src/Pages/Common/LogoutSessionPage.java
+END
+SnapwizLoginPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common/SnapwizLoginPage.java
+END
+SnapwizLogoutPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common/SnapwizLogoutPage.java
+END
+QuestionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Wiley/!svn/ver/5913/WileyPlus_Automation/src/Pages/Common/QuestionPage.java
+END
+Finalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Wiley/!svn/ver/5298/WileyPlus_Automation/src/Pages/Common/Finalizer.java
+END

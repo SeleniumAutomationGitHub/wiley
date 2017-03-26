@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Wiley/!svn/ver/5921/WileyPlus_Automation/src/Util
+END
+GradeBookDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Wiley/!svn/ver/5912/WileyPlus_Automation/src/Util/GradeBookDataProviderUtil.java
+END
+CommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Wiley/!svn/ver/2776/WileyPlus_Automation/src/Util/CommonUtil.java
+END
+LMSMGDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Wiley/!svn/ver/5129/WileyPlus_Automation/src/Util/LMSMGDataProviderUtil.java
+END
+ExcelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Wiley/!svn/ver/5512/WileyPlus_Automation/src/Util/ExcelUtil.java
+END
+PropertyUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Wiley/!svn/ver/5681/WileyPlus_Automation/src/Util/PropertyUtil.java
+END
+SnapwizIntegrationDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5365/WileyPlus_Automation/src/Util/SnapwizIntegrationDataProviderUtil.java
+END
+AssignmentsDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Wiley/!svn/ver/5921/WileyPlus_Automation/src/Util/AssignmentsDataProviderUtil.java
+END
+WPBlackboardIntegrationDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Wiley/!svn/ver/4555/WileyPlus_Automation/src/Util/WPBlackboardIntegrationDataProviderUtil.java
+END
+CourseAdminDataProviderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Wiley/!svn/ver/2159/WileyPlus_Automation/src/Util/CourseAdminDataProviderUtil.java
+END

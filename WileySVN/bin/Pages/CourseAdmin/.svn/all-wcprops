@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Wiley/!svn/ver/5847/WileyPlus_Automation/src/Pages/CourseAdmin
+END
+CourseAdminClassSectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Wiley/!svn/ver/5841/WileyPlus_Automation/src/Pages/CourseAdmin/CourseAdminClassSectionPage.java
+END
+StudentInformationFlyerPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/StudentInformationFlyerPage.java
+END
+AddClassSectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Wiley/!svn/ver/5847/WileyPlus_Automation/src/Pages/CourseAdmin/AddClassSectionPage.java
+END
+CoursePropertiesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/CoursePropertiesPage.java
+END
+NewInstructorPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Wiley/!svn/ver/5841/WileyPlus_Automation/src/Pages/CourseAdmin/NewInstructorPage.java
+END
+ImportRoasterPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/ImportRoasterPage.java
+END
+CourseAdminClassSectionEditPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/CourseAdminClassSectionEditPage.java
+END
+GoToAddInstructorPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5767/WileyPlus_Automation/src/Pages/CourseAdmin/GoToAddInstructorPage.java
+END
+ReInstructorLoginPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Wiley/!svn/ver/5847/WileyPlus_Automation/src/Pages/CourseAdmin/ReInstructorLoginPage.java
+END
+AddEmailInstructorPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/AddEmailInstructorPage.java
+END
+CourseFinderPreviewPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/CourseFinderPreviewPage.java
+END
+CourseAdminPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Wiley/!svn/ver/5846/WileyPlus_Automation/src/Pages/CourseAdmin/CourseAdminPage.java
+END
